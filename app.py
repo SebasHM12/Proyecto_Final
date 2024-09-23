@@ -1,3 +1,9 @@
+!pip install streamlit
+!pip install --upgrade streamlit
+!pip install streamlit-option-menu
+!pip install torch
+
+
 import streamlit as st
 import torch
 from transformers import AutoModelForImageClassification, AutoImageProcessor
